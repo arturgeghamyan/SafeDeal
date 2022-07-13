@@ -1,0 +1,8 @@
+{
+  "name": "BNB Universe NFT",
+  "description": "Decentralized community driven ecosystem.",
+  "image": "ipfs://QmXGnJFekTzXkwLVV9nZfDdad537Qm3WUoQUD8FVMgv3DF",
+  "external_link": "bnbuniverse.finance/",
+  "seller_fee_basis_points": 0,
+  "fee_recipient": "0x0000000000000000000000000000000000000000" 
+}

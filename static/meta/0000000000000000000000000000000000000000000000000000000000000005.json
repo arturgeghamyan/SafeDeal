@@ -1,0 +1,15 @@
+{
+  "name": "BNB UNIVERSE NFT Divine",
+  "description": "",
+  "image": "ipfs://QmWHEXMXDXcwdS7t9zJFJX4pTWiMNRpcEReNzwe9uYGNY5",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Divine"
+    },
+    {
+      "trait_type": "Color",
+      "value": 7
+    }
+  ]
+}

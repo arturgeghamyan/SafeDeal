@@ -1,0 +1,15 @@
+{
+  "name": "BNB UNIVERSE NFT Uncommon",
+  "description": "",
+  "image": "ipfs://QmYKQ7FovvxHrSxEYCQFAb4pAEZ9GuJ8D8Cp2RaG6jvEt4",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Color",
+      "value": 7
+    }
+  ]
+}

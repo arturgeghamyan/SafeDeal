@@ -1,0 +1,15 @@
+{
+  "name": "BNB UNIVERSE NFT Common",
+  "description": "",
+  "image": "ipfs://QmZBsdbRwBtnZrqK61RatVwK4A2L2B4NqkCBrg6c1h2VY4",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Color",
+      "value": 7
+    }
+  ]
+}

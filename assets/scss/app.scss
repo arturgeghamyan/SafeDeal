@@ -1,0 +1,44 @@
+// Import Bootstrap and BootstrapVue source SCSS files
+@import "~bootstrap/scss/bootstrap";
+@import "~animate.css/animate";
+@import "./variables";
+
+/* ---------- common ---------- */
+html,
+body,
+#__nuxt {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.modal.show {
+    display: block;
+    background: rgba($body-color, 0.2);
+}
+
+.btn-primary {
+    background: linear-gradient(95.83deg, #0066FF 9.89%, $primary 90.97%);
+}
+
+.shadow {
+    box-shadow: 0px 4px 44px -20px rgba(6, 16, 41, 0.14);
+}
+
+// =================================================
+.animated {
+    opacity: 0;
+    display: block;
+    transform: translate3d(0, 100px, 0);
+}
+
+.walletconnect-qrcode__base {
+    transform: translate(0)
+}

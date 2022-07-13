@@ -1,0 +1,15 @@
+{
+  "name": "BNB UNIVERSE NFT Rare",
+  "description": "",
+  "image": "ipfs://QmQXnkie7PuqsKs3LjxVNyuPBLkC1xLxLrgYaYDcJQvStG",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Color",
+      "value": 7
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "BNB UNIVERSE NFT Mythical",
+  "description": "",
+  "image": "ipfs://QmUpgDTc8dGDFYWMqL2fMDAW3fVnJfuyvW9cUVYPRSKVkM",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Mythical"
+    },
+    {
+      "trait_type": "Color",
+      "value": 7
+    }
+  ]
+}
