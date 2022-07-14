@@ -26,7 +26,6 @@
 									class="text-decoration-none text-primary fw-bolder small"
 								>
 									<span>View at BSCScan</span>
-									<img src="@/assets/images/icons/arrow.svg" alt="arrow" />
 								</a>
 							</div>
 						</div>

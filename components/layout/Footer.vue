@@ -1,6 +1,6 @@
 <template>
 	<footer class="bg-light border-top border-light-blue p-4 mb-4 mb-md-0">
-		<div
+		<!-- <div
 			v-intersect="{ true: ['animate__fadeInUp'], disposeWhen: true }"
 			class="animate__animated footer"
 		>
@@ -81,47 +81,47 @@
 			</div>
 			<hr class="text-light-blue op-50 mt-lg-5" />
 			<p class="small fw-bold op-50 mb-3 mb-md-0">© 2022 BNB Universe</p>
-		</div>
-	</footer>
+		</div>-->
+	</footer> 
 </template>
 
-<script>
-import LogoIcon from "@/assets/images/icons/logo.svg?inline";
+// <script>
+// import LogoIcon from "@/assets/images/icons/logo.svg?inline";
 
-export default {
-	components: { LogoIcon },
-	data() {
-		return {
-			info: [],
-			about: [],
-			socials: [],
-			recommendations: [],
-		};
-	},
-};
-</script>
+// export default {
+// 	components: { LogoIcon },
+// 	data() {
+// 		return {
+// 			info: [],
+// 			about: [],
+// 			socials: [],
+// 			recommendations: [],
+// 		};
+// 	},
+// };
+// </script>
 
-<style lang="scss" scoped>
-.footer {
-	max-width: 881px;
-	margin: auto;
-}
+// <style lang="scss" scoped>
+// .footer {
+// 	max-width: 881px;
+// 	margin: auto;
+// }
 
-.h-24 {
-	height: 24px;
-}
+// .h-24 {
+// 	height: 24px;
+// }
 
-.social {
-	&-icon {
-		margin-right: 18px;
+// .social {
+// 	&-icon {
+// 		margin-right: 18px;
 
-		&-img {
-			width: 24px;
-		}
-	}
-}
-.markets {
-	margin-top: 36px;
-    gap: 10px 24px;
-}
-</style>
+// 		&-img {
+// 			width: 24px;
+// 		}
+// 	}
+// }
+// .markets {
+// 	margin-top: 36px;
+//     gap: 10px 24px;
+// }
+// </style>

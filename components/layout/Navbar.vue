@@ -13,8 +13,9 @@
 				"
 				to="/"
 			>
-				<div class="fw-bolder ms-1">
-					<p class="m-0 fs-3">LOGO</p>
+				<div class="d-flex align-items-center fw-bolder ms-1">
+					<Logo />
+					<p class="m-0 fs-3">afeDeal</p>
 				</div>
 			</nuxt-link>
 
@@ -23,7 +24,7 @@
 				class="animate__animated animated d-flex align-items-center"
 			>
 				<web3-connection-placeholder>
-					<button>{{buttonText}}</button>
+					<p class="m-0 bg-secondary-bg text-primary px-4 py-3 fs-4 fw-bold rounded">{{buttonText}}</p>
 				</web3-connection-placeholder>
 			</div>
 		</nav>
@@ -31,7 +32,9 @@
 </template>
 <script>
 import { mapGetters } from 'vuex';
+import Logo from '@/assets/images/icons/logo.svg?inline'
 export default {
+	components: { Logo },
 	computed: {
 		...mapGetters({
 			address: 'auth/address',
@@ -39,7 +42,7 @@ export default {
 		}),
 		buttonText() {
 			return this.isSupportedChain
-				? `${this.address.slice(0, 12)}...${this.address.slice(-2, this.address.length)}`
+				? `${this.address.slice(0, 6)}...${this.address.slice(-4, this.address.length)}`
 				: "WRONG NETWORK";
 		},
 	},
